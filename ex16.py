@@ -16,6 +16,10 @@ target.truncate()
 
 print("Now I'm going to write these to the file.")
 
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
 target.write(line1)
 target.write("\n")
 target.write(line2)
